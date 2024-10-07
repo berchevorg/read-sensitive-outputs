@@ -2,7 +2,7 @@ data "terraform_remote_state" "workspace-output" {
   backend = "remote"
 
   config = {
-    organization = "berchevorg"
+    organization = "georgiman"
     workspaces = {
       name = "outputs"
     }
