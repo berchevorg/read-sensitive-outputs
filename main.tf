@@ -1,3 +1,11 @@
+
+resource "random_pet" "name" {
+ length    = "9"
+ separator = "-"
+}
+
+
+
 data "terraform_remote_state" "workspace-output" {
   backend = "remote"
 
